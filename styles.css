@@ -49,3 +49,41 @@ html {
 	vertical-align: middle;
 	text-align: center;
 }
+
+#display-pic {
+	width: 30%;
+	height: auto;
+	border-radius: 50%;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+
+#short-bio {
+
+	border-radius: 10px;
+	opacity: 1;
+	color: #FFFFFF;
+	height: 30%;
+	position: absolute;
+	width: 40%;
+	left: 50%;
+	top: 30%;
+}
+
+#bio-title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 70pt;
+	padding-left: 4%;
+	padding-top: 2%;
+	color: #FFFFFF;
+}
+
+#bio-text {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15pt;
+	padding-top: 5%;
+	padding-left: 30%;
+}
