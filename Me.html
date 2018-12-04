@@ -4,6 +4,33 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Yellowtail" rel="stylesheet">
 	<title>Ananye Agarwal</title>
+	<script type="text/javascript">
+		var n = 0;
+		function runScript() {
+			console.log("SCRIPT IN");
+			var nameBox = document.getElementById("nameboxid");
+			var nameValue = nameBox.value;
+			var textBox = document.getElementById("textid");
+			var textValue = textBox.value;
+			var nameNode = document.createTextNode(nameValue);
+			var textNode = document.createTextNode(textValue);
+			n += 1;
+			console.log(textValue);
+			console.log(nameValue);
+			var x = document.getElementById("log");
+			var newLog = document.createElement('div');
+			var newLogHeading = document.createElement('h2');
+			newLogHeading.appendChild(nameNode);
+			newLog.appendChild(newLogHeading);
+			newLog.appendChild(textNode);
+			x.appendChild(newLog);
+			newLog.id = "post";
+			console.log(newLog.id);
+			textBox.value ="";
+			nameBox.value="";
+			return false;
+		} 
+	</script>
 </head>
 <body>	
 	<div id="home"></div>
@@ -49,6 +76,15 @@
 	</div>
 	<div id="comment">
 		<div id="comment-heading">Comments.</div>
+		<div id="nameid">
+			Name: <br><br> Text:
+			<input type="name" name="nameboxname" id="nameboxid" style="color: rgb(151, 152, 153);">
+			<textarea id="textid"></textarea>
+			<div id="submit-button" onclick="runScript();">SUBMIT</div>
+		</div>
+		<div id="log">
+	
+		</div>
 	</div>
 	<div id="contact">
 		<a href="https://www.facebook.com/ananay.agarwal.3"><img src="Images/fb.png"></a>
