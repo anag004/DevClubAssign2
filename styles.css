@@ -108,3 +108,27 @@ html {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
+
+#acads-image {
+	height: auto;
+	width: 40%;
+	float: right;
+	position: absolute;
+	top: 25%;
+	right: 5%;
+}
+
+#acads-text {
+	color: white;
+	font-size: 13pt;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	top: 30%;
+	left: 3%;
+	width: 40%;
+}
+
+li {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
