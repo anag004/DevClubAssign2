@@ -1,0 +1,30 @@
+html { 
+  background: url(images/CoverImage2Edited.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nav {
+	/*dim-gray navbar*/
+	background-color: #08040B;
+	position: fixed;
+	top: 0;
+	right: 0;
+	height: 10%; 
+	width: 100%;
+	z-index: 999;
+	opacity: 0.5;
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+}
+
+.navElement {
+	padding-top: 5%;
+	text-align: center;
+	width: 10%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
