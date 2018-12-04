@@ -44,10 +44,12 @@ html {
 	background-color: #BA6776;
 }
 
-.navElement span {
+.navElement a {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
+	text-decoration: none;
+	color:white;
 }
 
 #display-pic {
@@ -86,4 +88,23 @@ html {
 	font-size: 15pt;
 	padding-top: 5%;
 	padding-left: 30%;
+}
+
+#acads {
+	position: absolute;
+	background-color: #08040B;
+	top:100%;
+	height: 100%;
+	width: 100%;
+}
+
+#acads-heading {
+	color: white;
+	position: absolute;
+	top: 10%;
+
+	left: 3%;
+	font-size: 40pt;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 }
