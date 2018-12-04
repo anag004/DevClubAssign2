@@ -96,13 +96,14 @@ html {
 	top:100%;
 	height: 100%;
 	width: 100%;
+	margin: 0 0 0 0;
+	left:0;
 }
 
 #acads-heading {
-	color: white;
+	color: #E5E1E0;
 	position: absolute;
 	top: 10%;
-
 	left: 3%;
 	font-size: 40pt;
 	font-family: 'Montserrat', sans-serif;
@@ -119,7 +120,7 @@ html {
 }
 
 #acads-text {
-	color: white;
+	color: #E5E1E0;
 	font-size: 13pt;
 	font-family: 'Montserrat', sans-serif;
 	position: absolute;
@@ -132,3 +133,103 @@ li {
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
+
+#projects {
+	position: absolute;
+	background-color: #BA6776;
+	top: 200%;
+	height: 100%;
+	width: 100%;
+	margin: 0 0 0 0;
+	left:0;
+}
+
+#projects-heading {
+	color: #E5E1E0;
+	position: absolute;
+	top: 10%;
+	left: 3%;
+	font-size: 40pt;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+
+#hobbies {
+	position: absolute;
+	background-color: #E5E1E0;
+	top: 300%;
+	height: 100%;
+	width: 100%;
+	margin: 0 0 0 0;
+	left:0;
+}
+
+#hobbies-heading {
+	color: #08040B;
+	position: absolute;
+	top: 10%;
+	left: 3%;
+	font-size: 40pt;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+#hobbies-image {
+	height: auto;
+	width: 25%;
+	position: absolute;
+	top: 25%;
+	float:left;
+	left: 35%;
+	border: 1px solid #ddd;
+	background-color: #E5E1E0;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#projects-image {
+	height: auto;
+	width: 25%;
+	position: absolute;
+	top: 25%;
+	float:left;
+	left: 5%;
+	border: 1px solid #ddd;
+	background-color: #E5E1E0;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#projects-text {
+	color: #E5E1E0;
+	font-size: 13pt;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	top: 25%;
+	right: 10%;
+	width: 40%;
+}
+
+#hobbies-left-text {
+	color: #08040B;
+	font-size: 13pt;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	width: 25%;
+}
+
+#hobbies-right-text {
+	color: #08040B;
+	font-size: 13pt;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	top: 25%;
+	right: 5%;
+	width: 25%;
+}
+
